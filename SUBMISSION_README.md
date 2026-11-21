@@ -25,6 +25,8 @@ Or open `notebooks/Final_Submission.ipynb` (kernel "Crop challenge") and Run All
 | `experiments/final_evaluation.py` | Final model vs control vs reference, seeds 0/1/2, all metrics and resources, test predictions |
 | `notebooks/Final_Submission.ipynb` | Narrative, plots, findings, limitations |
 | `outputs/final/test_predictions_quantum_kernel.csv` | Test predictions (221 rows: `sample_id`, `prediction`) |
+| `QuantumAfrica_submission_presentation.pdf` | Final presentation deck (PDF) |
+| `presentation.pptx` | Final presentation deck (PowerPoint) |
 
 ## Key results (validation, macro-F1)
 Quantum kernel 0.920 | matched RBF control 0.933 | supplied reference 0.880. Quantum minus control: -0.012, 95% CI [-0.047, +0.028] (no measurable quantum contribution). Resources of the final model: 8 qubits, depth 23, 14 two-qubit gates, 0 trainable quantum parameters, 1 frozen quantum parameter (bandwidth), 445 trainable readout parameters, 1135 statevector simulations.
